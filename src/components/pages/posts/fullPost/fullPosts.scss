@@ -1,0 +1,65 @@
+// use span for highlighter => className="orange/green/red/aqua/white"
+// use ul(li) for points => className="point"
+// use ul(li) for subpoints => className="subPoint"
+// give width & height to the img 
+
+
+
+.fullposts{
+    padding-left: 25%;
+    padding-right: 25%;
+
+    @media screen and (max-width: 767px){
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    p{
+        line-height: 24px;
+        letter-spacing: 0.35px;
+        font-size: 16px;
+        color: #FFFFFF;
+        padding-bottom: 5px;
+    
+        @media screen and (max-width: 767px) {
+            font-size: 14px;
+          }
+    }
+    
+    .white{
+        color: #FFFFFF;
+    }
+    
+    .green{
+        color: green;
+    }
+    
+    .aqua{
+        color: aqua;
+    }
+    
+    .red{
+        color: red;
+    }
+    
+    .orange{
+        color: orange;
+    }
+
+    .point{
+        padding-left:28px;
+        @media screen and (max-width: 767px){
+            padding-left:20px;
+        }
+    }
+
+    .subPoint{
+        padding-left: 32px;
+        @media screen and (max-width: 767px){
+            padding-left:25px;
+        }
+    }
+
+
+}
+
